@@ -2,6 +2,6 @@
   font-family: "Open Sans", "Trebuchet MS";
 }
 
-h1 {
-  color: gray;
+body {
+  background-color: rgb(210, 221, 239);
 }
