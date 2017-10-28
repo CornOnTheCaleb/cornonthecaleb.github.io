@@ -1,0 +1,4 @@
+pwd
+/root/Documents/Github/cornonthecaleb.github.io
+ls
+css  img  index.html  js  README.md  test.cpp  test.py

@@ -2,34 +2,39 @@
 <html>
   <head>
     <title>
-      cornonthecaleb
+    cornonthecaleb
     </title>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet'>
+    <!-- External CSS & Javascript -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <script src="js/prism.js"></script>
+    <!-- ------------------------- -->
+    
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script type="text/javascript" src="./js/main.js"></script>
   </head>
   <body>
-    <h1>
-      cornonthecaleb.github.io
-    </h1>
-    <h2>
-      cornonthecaleb.github.io
-    </h2>
-    <h3>
-      cornonthecaleb.github.io
-    </h3>
-    <h4>
-      cornonthecaleb.github.io
-    </h4>
-    <h5>
-      cornonthecaleb.github.io
-    </h5>
-    <h6>
-      cornonthecaleb.github.io
-    </h6>
-    <p>
-      cornonthecaleb.github.io
-    </p>
+    <nav>
+      <a href="index.html">CornOnTheCaleb</a>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <p>Here is some code formatted with PrismJS!</p>
+      <div>
+        <pre data-src="index.html" class="line-numbers"></pre>
+        <pre data-src="test.cpp" class="line-numbers"></pre>
+        <pre data-src="test.py" class="line-numbers"></pre>
+        <pre data-src="commandline.txt" class="command-line" data-user="root" data-host="kali" data-output="2,4"></pre>
+      </div>
+      <p>Welcome to the most sophisticated webpage you have ever visited!</p>
+    </div>
   </body>
 </html>
