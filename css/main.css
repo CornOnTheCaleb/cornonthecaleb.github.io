@@ -15,16 +15,14 @@ a {
 
 body {
   background-color: rgb(35, 43, 43);
-  padding: 0;
-  margin: 0;
-}
-.content {
-  margin: 50px 0px 0px 0px;
-  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
-.content > * {
-  padding: 0px 10px 0px 10px;
+#content {
+  margin: 50px 10px 10px 10px;
+  box-shadow: 0px 1px 2px black;
+  background-color: rgb(30, 30, 30);
 }
 
 nav {
@@ -33,13 +31,13 @@ nav {
   width: 100%;
   padding: 5px;
   background-color: rgb(14, 17, 17);
-  box-shadow: 0px 1px 2px rgb(0, 0, 0);
+  box-shadow: 0px 1px 2px black;
   z-index: 10;
   transition: box-shadow 1s;
 }
 
 nav:hover {
-  box-shadow: 0px 1px 15px rgb(0, 0, 0);  
+  box-shadow: 0px 1px 15px black;  
 }
 
 nav * {
