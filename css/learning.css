@@ -36,10 +36,6 @@
   background-color: rgba(45, 200, 45, 0.5);
 }
 
-.fake-checkbox:checked + label > .logo-wrapper > h4 {
-  visibility: visible;
-}
-
 [class$="-module"] {
   display: none;
   background-color: gray;
@@ -74,15 +70,4 @@
   display: block;
   padding: 0px 5px 0px 5px;
   margin: 0px;
-}
-
-#cplusplus:checked ~ .cplusplus-module,
-#python:checked ~ .python-module,
-#php:checked ~ .php-module,
-#java:checked ~ .java-module,
-#html:checked ~ .html-module,
-#javascript:checked ~ .javascript-module,
-#css:checked ~ .css-module,
-#bash:checked ~ .bash-module {
-  display: block;
 }
