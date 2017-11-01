@@ -13,21 +13,76 @@
   cursor: pointer;
 }
 
-.logo-wrapper img {
+.logo-wrapper > img {
 
 }
 
-.logo-wrapper:hover img {
+.logo-wrapper:hover > img {
 
 }
 
-.logo-wrapper h4 {
+.logo-wrapper > h4 {
   visibility: hidden;
   margin: 0px;
   color: rgb(226, 199, 195);
   font-style: italic;
 }
 
-.logo-wrapper:hover h4 {
+.logo-wrapper:hover > h4 {
   visibility: visible;
+}
+
+.fake-checkbox:checked + label > .logo-wrapper {
+  background-color: rgba(45, 200, 45, 0.5);
+}
+
+.fake-checkbox:checked + label > .logo-wrapper > h4 {
+  visibility: visible;
+}
+
+[class$="-module"] {
+  display: none;
+  background-color: gray;
+  margin: 5px;
+}
+
+[class$="-module"] > p:first-child {
+  display: block;
+  background-color: rgb(64, 64, 64);
+  color: rgb(32, 32, 32);
+  font-family: "Ubuntu";
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px 1px 1px black;
+}
+
+[class$="-module"] > h3 {
+  padding: 5px 5px 0px 5px;
+  margin: 0px;
+}
+
+[class$="-module"] a,
+[class$="-module"] a:hover,
+[class$="-module"] a:active,
+[class$="-module"] a:focus {
+  color: black;
+  outline: none;
+}
+
+[class$="-module"] > p:last-child {
+  display: block;
+  padding: 0px 5px 0px 5px;
+  margin: 0px;
+}
+
+#cplusplus:checked ~ .cplusplus-module,
+#python:checked ~ .python-module,
+#php:checked ~ .php-module,
+#java:checked ~ .java-module,
+#html:checked ~ .html-module,
+#javascript:checked ~ .javascript-module,
+#css:checked ~ .css-module,
+#bash:checked ~ .bash-module {
+  display: block;
 }
